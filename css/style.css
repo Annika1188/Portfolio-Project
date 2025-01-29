@@ -2,7 +2,9 @@
   --font-family: "Roboto", serif;
   --branding-color: #ffffff;
 }
-
+body {
+  background: #282323;
+}
 .hero {
   text-align: center;
   padding: 160px 20px;
