@@ -1,9 +1,15 @@
 :root {
   --font-family: "Roboto", serif;
   --branding-color: #ffffff;
+  --primary-color: #fc5687;
+  --secondary-color: #272142;
 }
 body {
   background: #202020;
+  font-family: var(--font-family);
+  color: var(--branding-color);
+  margin: 0;
+  padding: 0;
 }
 .hero {
   text-align: center;
@@ -92,6 +98,7 @@ h3 {
 .content-container {
   text-align: center;
   font-size: 18px;
+  font-weight: 300;
 }
 .content-container h2 {
   color: #fc5687;
