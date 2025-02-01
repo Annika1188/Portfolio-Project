@@ -4,6 +4,12 @@
   --primary-color: #fc5687;
   --secondary-color: #28272e;
 }
+html,
+body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
 body {
   background: #202020;
   font-family: var(--font-family);
@@ -99,6 +105,7 @@ h3 {
   text-align: center;
   font-size: 18px;
   font-weight: 300;
+  flex-grow: 1;
 }
 .content-container h2 {
   color: var(--primary-color);
@@ -110,6 +117,20 @@ h3 {
   font-weight: bold;
   font-size: 72px;
   margin-top: 60px;
+}
+.content {
+  margin-top: 100px;
+  line-height: 1.2;
+}
+.content i {
+  margin-right: 10px;
+}
+.email-link {
+  text-decoration: none;
+  color: var(--branding-color);
+}
+.email-link:hover {
+  color: var(--primary-color);
 }
 .navbar {
   padding: 40px;
