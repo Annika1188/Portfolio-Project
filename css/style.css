@@ -80,6 +80,14 @@ h3 {
 .about-image-grid {
   padding: 160px 20px;
 }
+.gallery-section {
+  text-align: center;
+  font-family: var(--font-family);
+  color: var(--branding-color);
+  font-size: 72px;
+  padding: 100px 20px;
+  font-weight: bold;
+}
 @media (max-width: 960px) {
   h1 {
     font-size: 36px;
