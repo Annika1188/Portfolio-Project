@@ -45,7 +45,32 @@ p {
 .container {
   padding: 0px;
 }
-
+.about-section {
+  font-family: var(--font-family);
+  padding: 160px 20px;
+}
+.about-section h1,
+h3 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #fc5687;
+}
+.about-section h2 {
+  font-size: 64px;
+  font-weight: bold;
+}
+.about-section p {
+  font-size: 18px;
+  font-weight: 300;
+  color: var (--branding-color);
+}
+.about-image {
+  width: 500px;
+  height: 600px;
+}
+.about-section-content {
+  margin: 30px;
+}
 @media (max-width: 960px) {
   h1 {
     font-size: 45px;
