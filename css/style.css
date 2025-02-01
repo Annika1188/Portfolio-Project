@@ -26,19 +26,19 @@ body {
   background-repeat: no-repeat;
 }
 
-h1 {
+.hero h1 {
   font-family: var(--font-family);
   font-weight: bold;
   font-size: 72px;
   color: var(--branding-color);
 }
-h2 {
+.hero h2 {
   font-family: var(--font-family);
   font-weight: normal;
   font-size: 18px;
   color: var(--branding-color);
 }
-p {
+.hero p {
   font-family: var(--font-family);
   font-weight: bold;
   font-size: 24px;
@@ -60,7 +60,7 @@ p {
 }
 .about-section {
   font-family: var(--font-family);
-  padding: 160px 20px;
+  padding: 40px;
 }
 .about-section h1,
 h3 {
@@ -92,7 +92,7 @@ h3 {
 .about-image-grid {
   padding: 160px 20px;
 }
-.gallery-section {
+.gallery-section h1 {
   text-align: center;
   font-family: var(--font-family);
   color: var(--branding-color);
@@ -135,7 +135,19 @@ h3 {
 .navbar {
   padding: 40px;
 }
-
+.note {
+  font-family: var(--font-family);
+  color: var(--branding-color);
+  font-size: 10px;
+  opacity: 70%;
+}
+.note a {
+  text-decoration: none;
+  color: var(--branding-color);
+}
+.note a:hover {
+  color: var(--primary-color);
+}
 footer {
   background: var(--secondary-color);
   padding: 20px 0;
@@ -177,14 +189,17 @@ footer {
 }
 
 @media (max-width: 960px) {
-  h1 {
+  .hero h1 {
     font-size: 36px;
   }
-  h2 {
-    font-size: 28px;
+  .hero h2 {
+    font-size: 22px;
   }
-  p {
+  .hero p {
     font-size: 16px;
+  }
+  .gallery-section h1 {
+    font-size: 36px;
   }
   .btn-branding {
     display: block;
