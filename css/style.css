@@ -2,7 +2,7 @@
   --font-family: "Roboto", serif;
   --branding-color: #ffffff;
   --primary-color: #fc5687;
-  --secondary-color: #272142;
+  --secondary-color: #28272e;
 }
 body {
   background: #202020;
@@ -114,6 +114,47 @@ h3 {
 .navbar {
   padding: 40px;
 }
+
+footer {
+  background: var(--secondary-color);
+  padding: 20px 0;
+  color: var(--branding-color);
+  text-align: center;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer-logo {
+  width: 150px;
+}
+
+.footer-social {
+  display: flex;
+  gap: 15px;
+}
+
+.footer-social i {
+  font-size: 24px;
+  color: var(--branding-color);
+  transition: all 100ms ease-in-out;
+}
+
+.footer-social i:hover {
+  color: var(--primary-color);
+}
+
+.footer-text {
+  font-size: 14px;
+}
+
 @media (max-width: 960px) {
   h1 {
     font-size: 36px;
@@ -137,5 +178,11 @@ h3 {
   }
   .content-container h1 {
     font-size: 36px;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
   }
 }
