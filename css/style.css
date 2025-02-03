@@ -61,6 +61,7 @@ body {
 .row {
   margin-left: 0;
   margin-right: 0;
+  margin-bottom: 10px;
 }
 .about-section {
   font-family: var(--font-family);
@@ -137,7 +138,7 @@ h3 {
   color: var(--primary-color);
 }
 .navbar {
-  padding: 40px;
+  padding: 20px;
 }
 .note {
   font-family: var(--font-family);
@@ -175,7 +176,8 @@ footer {
 
 .footer-social {
   display: flex;
-  gap: 15px;
+  justify-content: center;
+  gap: 20px;
 }
 
 .footer-social i {
