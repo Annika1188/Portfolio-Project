@@ -56,7 +56,11 @@ body {
   align-self: start;
 }
 .container {
-  padding: 0px;
+  padding: 0;
+}
+.row {
+  margin-left: 0;
+  margin-right: 0;
 }
 .about-section {
   font-family: var(--font-family);
