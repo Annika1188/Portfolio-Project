@@ -130,6 +130,12 @@ h3 {
 .content i {
   margin-right: 10px;
 }
+.card-img-top {
+  height: 180px;
+  object-fit: cover;
+  object-position: top;
+}
+
 .email-link {
   text-decoration: none;
   color: var(--branding-color);
