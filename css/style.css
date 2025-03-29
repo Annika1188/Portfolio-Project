@@ -83,9 +83,16 @@ h3 {
   color: var (--branding-color);
 }
 .about-image {
-  max-width: 100%;
-  height: auto;
+  width: 100%;
+  max-width: 500px; /* adjust width as needed */
+  height: 650px; /* controls the visible height */
+  object-fit: cover; /* crops the image to fill the area */
+  object-position: top; /* focus on the top part of the image */
+  border-radius: 10px;
+  margin: 40px auto;
+  display: block;
 }
+
 .about-section-content {
   margin: 30px;
   display: flex;
@@ -93,17 +100,6 @@ h3 {
 }
 .about-section .btn-branding {
   margin-left: 30px;
-}
-.about-image-grid {
-  padding: 160px 20px;
-}
-.gallery-section h1 {
-  text-align: center;
-  font-family: var(--font-family);
-  color: var(--branding-color);
-  font-size: 72px;
-  padding: 100px 20px;
-  font-weight: bold;
 }
 
 .content-container {
