@@ -2,7 +2,7 @@
   --font-family: "Roboto", serif;
   --branding-color: #ffffff;
   --primary-color: #fc5687;
-  --secondary-color: #28272e;
+  --secondary-color: #000000;
 }
 html,
 body {
@@ -11,7 +11,7 @@ body {
   flex-direction: column;
 }
 body {
-  background: #202020;
+  background: #2b2b2b;
   font-family: var(--font-family);
   color: var(--branding-color);
   margin: 0;
@@ -20,7 +20,7 @@ body {
 .hero {
   text-align: center;
   padding: 160px 20px;
-  background-image: url("images/bg.png");
+  background-image: url("images/Annika\ Scharkie\ background.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -30,13 +30,13 @@ body {
   font-family: var(--font-family);
   font-weight: bold;
   font-size: 72px;
-  color: var(--branding-color);
+  color: var(--secondary-color);
 }
 .hero h2 {
   font-family: var(--font-family);
   font-weight: normal;
   font-size: 18px;
-  color: var(--branding-color);
+  color: var(--secondary-color);
 }
 .hero p {
   font-family: var(--font-family);
@@ -145,6 +145,7 @@ h3 {
 }
 .navbar {
   padding: 20px;
+  background-color: #000000 !important;
 }
 .note {
   font-family: var(--font-family);
